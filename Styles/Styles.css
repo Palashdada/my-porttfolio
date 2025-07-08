@@ -7,6 +7,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* bgc */
+.bgc{
+    background-color:#FFF8F3;
+}
+
+
 /* header */
 .header{
     background-image: url(/images/developer.png), url(/images/header_bg.png);
@@ -101,4 +107,25 @@ h1{
 }
 .conten{
     width: 520px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about{
+    border-radius: 10px;
+    padding: 120px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.pitem-titel{
+    font-size: 20px;
+    
+    color:#000000 ;
 }
